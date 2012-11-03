@@ -10,29 +10,42 @@
 		<meta name="author" content="Gawain Bracy II" />
 		<meta name="keywords" content="Html5, Mobile Development, Full Sail University" />
 		<meta name="robots" content="noindex, nofollow" />
+
+		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
 		<meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1, maximumscale=1" />
 		<meta name="viewport" content="target-densitydpi=device-dpi" />
 		<meta name="handheldfriendly" content="true" />
 		<meta name="mobileoptimized" content="320" />
 
+		<!-- Mobile IE needs ClearType for smoothing fonts -->
+		<meta http-equiv="cleartype" content="on" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+
+		<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
+
+		<!-- Gawain's custom style sheet-->
+		<!-- call custom style sheets last when using jqmobile -->
+		<link rel="stylesheet" href="css/styles.css" />
+
 		<!-- Document Title -->
-		<title>My Launch Page</title>
+		<title>Maps</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	</head>
 	<body>
-		<header>
-			<h1>AVF 1210 Demo App Launch Page</h1>
-		</header>
-		<form action="#" method="post">
+		<div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+		<div data-role="header" id="header">AVF Launch Page</div><!--/header-->
+		<div data-role="content">
 			<fieldset>
 				<legend>iOS/Android API's</legend>
 				<div id="api">
 				<ul>
-					<li><a href="maps.html"><img src="images/maps/iOS/Icon-Small-50.png">Maps</a></li>
-					<li><a href="social.html"><img src="images/social/iOS/Icon-Small-50.png">Social Intergration</a></li>
-					<li><a href="voice.html"><img src="images/voice/iOS/Icon-Small-50.png">Voice Over</a></li>
-					<li><a href="email.html"><img src="images/email/iOS/Icon-Small-50.png">Email</a></li>
-					<li><a href="calender.html"><img src="images/calender/iOS/Icon-Small-50.png">Calender</a></li>
+					<li><a href="maps.html"><img src="images/maps/iOS/Icon-Small-50.png" alt="maps">Maps</a></li>
+					<li><a href="social.html"><img src="images/social/iOS/Icon-Small-50.png" alt="social">Social Intergration</a></li>
+					<li><a href="voice.html"><img src="images/voice/iOS/Icon-Small-50.png" alt="voice">Voice Over</a></li>
+					<li><a href="email.html"><img src="images/email/iOS/Icon-Small-50.png" alt="email">Email</a></li>
+					<li><a href="calender.html"><img src="images/calender/iOS/Icon-Small-50.png" alt="calender">Calender</a></li>
 				</ul>
 				</div>
 			</fieldset>	
@@ -40,8 +53,8 @@
 				<legend>JSON Data API's</legend>
 				<div id="data">
 				<ul>
-					<li><input type="checkbox" id="colleges" /><label for="colleges">Accreditated Colleges List</label></li>
-					<li><input type="checkbox" id="students" /><label for="students">Student Information</label></li>
+					<li><a href="college.html"><img src="images/college/iOS/Icon-Small-50.png" alt="college">College List</a></li>
+					<li><a href="students.html"><img src="images/student/iOS/Icon-Small-50.png" alt="students">Student Info</a></li>
 				</ul>
 				</div>
 			</fieldset>
@@ -56,6 +69,7 @@
 				</ul>
 				</div>
 			</fieldset>
+		</form>
 			<footer>
 				<div class="footer-home">
 					© Gawain Bracy II 2012

@@ -8,7 +8,7 @@ body{
 	background-color: #FAFAC6;
 }
 
-h1{
+#header{
 	color: rgb(255,0,0);
 	font: 1.6em Helvetica, "Trebuchet MS", Verdana, sans-serif;
 	font-weight: bold;
