@@ -10,7 +10,7 @@ function onBodyLoad()
 function onDeviceReady()
 {
     // do your thing!
-    phoneGapReady.innerHTML = ("")
+    phoneGapReady.innerHTML = ("");
 }
 var x=document.getElementById("demo");
 
@@ -29,7 +29,7 @@ function showPosition(position)
     lat=position.coords.latitude;
     lon=position.coords.longitude;
     latlon=new google.maps.LatLng(lat, lon);
-    mapholder=document.getElementById('mapholder')
+    mapholder=document.getElementById('mapholder');
     mapholder.style.height='250px';
     mapholder.style.width='100%';
     
@@ -48,16 +48,16 @@ function showError(error)
     switch(error.code)
     {
         case error.PERMISSION_DENIED:
-            x.innerHTML="User did not allow Geolocation."
+            x.innerHTML="User did not allow Geolocation.";
             break;
         case error.POSITION_UNAVAILABLE:
-            x.innerHTML="Location Data is not Available."
+            x.innerHTML="Location Data is not Available.";
             break;
         case error.TIMEOUT:
-            x.innerHTML="Request Timed Out."
+            x.innerHTML="Request Timed Out.";
             break;
         case error.UNKNOWN_ERROR:
-            x.innerHTML="Unknown Error."
+            x.innerHTML="Unknown Error.";
             break;
     }
 }
