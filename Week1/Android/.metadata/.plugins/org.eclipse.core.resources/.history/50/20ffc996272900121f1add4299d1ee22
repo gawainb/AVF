@@ -18,7 +18,7 @@
 		<meta name="mobileoptimized" content="320" />
 
 		<!-- Mobile IE needs ClearType for smoothing fonts -->
-		<!--<meta http-equiv="cleartype" content="on" /> -->
+		<meta http-equiv="cleartype" content="on" />
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 
 		<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
@@ -35,48 +35,29 @@
 
 	</head>
 	<body onload="onBodyLoad()">
-  		<div data-role="page" id="accelerometer" data-ajax="false">
-	  	<div data-role="header" id="header"></div><!--/header-->
+  		<div data-role="page" id="geolocation">
+  		<div data-role="header" id="header"></div><!--/header-->
 	  	<div data-role="content">
-			<div role="main" id="secondary_content" >
-		      
-			      <button onclick="getCurrentAcceleration();">Show Acceleration</button>
-			      
-				<div id="sphere_content">
+			<div role="main" id="secondary_content" > 
+		      <h1>Geolocation Demo</h1>
+		      <p class="intro" id="demo">Find your location with HTML5 Geolocation and Google Maps API. </p>
+		      <button onclick="getLocation()">Your Location</button>
+		      <div id="mapholder"></div>  
+	      </div><!--/secondary_content-->
+		<div class="push"></div>			
 
-					<!--online tutorial: http://www.albertosarullo.com/demos/accelerometer-->
-					<h1>Accelerometer Test</h1>
-					<div id="sphere"></div>
-					<ul>
-					<li>acceleration x: <span id="accelerationX"></span>g</li>
-					<li>acceleration y: <span id="accelerationY"></span>g</li>
-					<li>acceleration z: <span id="accelerationZ"></span>g</li>
-					<li>rotation alpha: <span id="rotationAlpha"></span>degree</li>
-					<li>rotation beta: <span id="rotationBeta"></span>degree</li>
-					<li>rotation gamma: <span id="rotationGamma"></span>degree</li>
-					</ul>
-					testing: <span id="test"></span>
-				</div>
+        </div><!--/content-->
+		<div data-role="footer" id="footer"></div>
+        </div><!--/page-->
 
-
-
-		    </div><!--/main /secondary_content-->
-			<div class="push"></div>
-			
-
-			</div><!--/content-->
-
-		<div data-role="footer" id="footer"><small>Gawain Bracy II : 1210 : Accelerometer Demo</small></div>
-	</div><!--/page-->
-
-	<!--jquery and jquery mobile-->
+		<!--jquery and jquery mobile-->
 	<!--note that order of js is important below-->
 	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 
 	<!--plugins-->
-	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript" src="js/accelerometer.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=weather&amp;sensor=false"></script>
+	<script type="text/javascript" src="js/geolocation.js"></script>
 
 	<!--custom js-->	
 	<script type="text/javascript" src="js/main.js"></script>

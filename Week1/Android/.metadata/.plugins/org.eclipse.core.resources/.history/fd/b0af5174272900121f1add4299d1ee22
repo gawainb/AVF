@@ -35,32 +35,32 @@
 
 	</head>
 	<body onload="onBodyLoad()">
-  		<div data-role="page" id="accelerometer" data-ajax="false">
+  		<div data-role="page" id="accelerometer">
 	  	<div data-role="header" id="header"></div><!--/header-->
 	  	<div data-role="content">
 			<div role="main" id="secondary_content" >
 		      
-			      <button onclick="getCurrentAcceleration();">Show Acceleration</button>
-			      
-				<div id="sphere_content">
+		      <button onclick="getCurrentAcceleration();">Show Acceleration</button>
+		      
+			<div id="sphere_content">
 
-					<!--online tutorial: http://www.albertosarullo.com/demos/accelerometer-->
-					<h1>Accelerometer Test</h1>
-					<div id="sphere"></div>
-					<ul>
-					<li>acceleration x: <span id="accelerationX"></span>g</li>
-					<li>acceleration y: <span id="accelerationY"></span>g</li>
-					<li>acceleration z: <span id="accelerationZ"></span>g</li>
-					<li>rotation alpha: <span id="rotationAlpha"></span>degree</li>
-					<li>rotation beta: <span id="rotationBeta"></span>degree</li>
-					<li>rotation gamma: <span id="rotationGamma"></span>degree</li>
-					</ul>
-					testing: <span id="test"></span>
-				</div>
+				<!--online tutorial: http://www.albertosarullo.com/demos/accelerometer-->
+				<h1>Accelerometer Test</h1>
+				<div id=sphere></div>
+				<ul>
+				<li>acceleration x: <span id=accelerationX></span>g</li>
+				<li>acceleration y: <span id=accelerationY></span>g</li>
+				<li>acceleration z: <span id=accelerationZ></span>g</li>
+				<li>rotation alpha: <span id=rotationAlpha></span>degree</li>
+				<li>rotation beta: <span id=rotationBeta></span>degree</li>
+				<li>rotation gamma: <span id=rotationGamma></span>degree</li>
+				</ul>
+				testing: <span id=test></span>
+			</div>
 
 
 
-		    </div><!--/main /secondary_content-->
+		      </div><!--/main /secondary_content-->
 			<div class="push"></div>
 			
 

@@ -34,7 +34,7 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	</head>
 	<body>
-		<div data-role="page" id="home" data-theme="d" data-add-back-btn="true" data-ajax="false">
+		<div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
 		<div data-role="header" id="header">AVF Launch Page</div><!--/header-->
 		<div data-role="content">
 			<fieldset>
@@ -77,7 +77,6 @@
 
 		<!--custom js-->
 		<script src="js/main.js" type="text/javascript"></script>
-
 	
 	</body>
 </html>

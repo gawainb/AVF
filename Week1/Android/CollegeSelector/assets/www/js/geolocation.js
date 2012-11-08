@@ -3,7 +3,7 @@
 
 	function onBodyLoad()
 	{		
-		document.getElementById('geolocation').empty();
+		//document.getElementById('geolocation').empty();
 		document.addEventListener("deviceready", onDeviceReady, false);
 	}
 
@@ -18,6 +18,7 @@
           {
               if (navigator.geolocation)
               {
+                alert("Loaded!");
                   navigator.geolocation.getCurrentPosition(showPosition,showError);
               }
               else{x.innerHTML="Your Browser does not support Geolocation.";}
