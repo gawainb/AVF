@@ -16,6 +16,10 @@ body{
 	margin: 10px 10px;
 }
 
+h3{
+	text-align: center;
+}
+
 legend{
 	
 	font-weight: bold;
@@ -31,18 +35,10 @@ legend{
 	list-style-type: none;
 }
 
-#two{
-	list-style-type: none;
-}
-
 #three{
 	list-style-type: none;
 }
 
 #four{
 	list-style-type: none;
-}
-
-ul{
-	
 }
