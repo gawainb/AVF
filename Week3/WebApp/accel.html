@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Gawain Bracy II
+ Date: 11/1/12
+ AVF 1210
+ Project_2-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="My Launch Page" />
+		<meta name="author" content="Gawain Bracy II" />
+		<meta name="keywords" content="Html5, Mobile Development, Full Sail University" />
+		<meta name="robots" content="noindex, nofollow" />
+        
+		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<meta name="handheldfriendly" content="true" />
+		<meta name="mobileoptimized" content="320" />
+        
+		<!-- Mobile IE needs ClearType for smoothing fonts -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        
+		<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+		<script type="text/javascript" src="js/libs/modernizr.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova-2.2.0rc2.js"></script>
+        
+		<!-- Gawain's custom style sheet-->
+		<!-- call custom style sheets last when using jqmobile -->
+		<link rel="stylesheet" href="css/styles.css" />
+        
+		<!-- Document Title -->
+		<title>Accelerometer</title>
+        
+	</head>
+	<body onload="onBodyLoad()">
+  		<div data-role="page" id="accelerometer">
+            <div data-role="header" id="header"></div><!--/header-->
+            <div data-role="content">
+                <div role="main" id="secondary_content" >
+                    
+                    <button onclick="getCurrentAcceleration();">Show Acceleration</button>
+                    
+                    <div id="sphere_content">
+                        
+                        <!--online tutorial: http://www.albertosarullo.com/demos/accelerometer-->
+                         <h1>Accelerometer Test</h1>
+                         <div id="sphere"></div>
+                         <ul>
+                         <li>acceleration x: <span id="accelerationX"></span>g</li>
+                         <li>acceleration y: <span id="accelerationY"></span>g</li>
+                         <li>acceleration z: <span id="accelerationZ"></span>g</li>
+                         <li>rotation alpha: <span id="rotationAlpha"></span>degree</li>
+                         <li>rotation beta: <span id="rotationBeta"></span>degree</li>
+                         <li>rotation gamma: <span id="rotationGamma"></span>degree</li>
+                         </ul>
+                         testing: <span id="test"></span>
+                         </div>
+                         
+                         
+                         
+                         </div><!--/main /secondary_content-->
+                        <div class="push"></div>
+                        
+                        
+                    </div><!--/content-->
+                    
+                    <div data-role="footer" id="footer"></div>
+                </div><!--/page-->
+                
+                <!--jquery and jquery mobile-->
+                <!--note that order of js is important below-->
+                <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+                <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+                
+                <!--plugins-->
+                <script type="text/javascript" src="js/accelerometer.js"></script>
+                
+                <!--custom js-->
+                <script type="text/javascript" src="js/index.js"></script>
+                </body>
+</html>
