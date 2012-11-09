@@ -31,20 +31,20 @@
 		<title>Maps</title>
         
 	</head>
-	<body onload="onBodyLoad()">
+  	<body onload="onBodyLoad()">
   		<div data-role="page" id="geolocation">
-            <div data-role="header" id="header"></div><!--/header-->
-            <div data-role="content">
-                <div role="main" id="secondary_content" >
-                    <h1>Geolocation Demo</h1>
-                    <p class="intro" id="demo">Find your location with HTML5 Geolocation and Google Maps API. </p>
-                    <button onclick="getLocation()">Your Location</button>
-                    <div id="mapholder"></div>
-                </div><!--/secondary_content-->
-                <div class="push"></div>
-                
-            </div><!--/content-->
-            <div data-role="footer" id="footer"></div>
+	  	<div data-role="header" id="header"></div><!--/header-->
+	  	<div data-role="content">
+			<div role="main" id="secondary_content" > 
+		      <h2>Geolocation Demo</h1>
+		      <p class="intro" id="demo">Find your location with HTML5 Geolocation and Google Maps API. </p>
+		      <button onclick="getLocation()">Your Location</button>
+		      <div id="mapholder"></div>  
+	      </div><!--/secondary_content-->
+		<div class="push"></div>			
+
+        </div><!--/content-->
+		<div data-role="footer" id="footer"></div>
         </div><!--/page-->
         
 		<!--jquery and jquery mobile-->
@@ -53,7 +53,7 @@
         <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
         
         <!--plugins-->
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=weather&amp;sensor=false"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=weather&sensor=false"></script>
         <script type="text/javascript" src="js/geolocation.js"></script>
         
         <!--custom js-->	
