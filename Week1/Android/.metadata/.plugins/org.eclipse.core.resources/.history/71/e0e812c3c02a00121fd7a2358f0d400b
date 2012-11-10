@@ -59,8 +59,8 @@
                     <legend>Research</legend>
                     <div id="research">
                         <ul>
-                            <li><a href="research1.html">Week 1: Industry Research and Project Intent</a></li>
-                            <li><a href="research2.html">Week 2: Accessability</a></li>
+                            <li><a href="http://www.youtube.com/watch?v=JU_7WvfG7U0&amp;feature=plcp">Week 1: Industry Research and Project Intent</a></li>
+                            <li id="two">Week 2: Research (Coming Soon)</li>
                             <li id="three">Week 3: Research (Coming Soon)</li>
                             <li id="four">Week 4: Research (Coming Soon)</li>
                         </ul>
@@ -68,7 +68,7 @@
                 </fieldset>
             </div> <!--Content-->
             <footer>
-                <div data-role="footer" id="footer">
+                <div data-role="footer" id="footer"><small>Copyright Gawain Bracy II. All Rights Reserved.</small>
                 </div>
             </footer>
         </div> <!--Page-->
