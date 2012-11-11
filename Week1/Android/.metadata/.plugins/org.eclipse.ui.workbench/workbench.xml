@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="19" version="2.0">
+<workbench progressCount="12" version="2.0">
 <workbenchAdvisor/>
 <window height="768" width="1148" x="243" y="22">
 <fastViewData fastViewLocation="1024"/>
@@ -13,9 +13,9 @@
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="40" y="22"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="76" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -32,7 +32,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1351315775258" focus="true" label="Workspace - DDMS">
+<page aggregateWorkingSetId="Aggregate for window 1351315775258" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -41,26 +41,21 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="maps.html" partName="maps.html" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/maps.html" title="maps.html" tooltip="CollegeSelector/assets/www/maps.html" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.ui.DefaultTextEditor" name="accel.html" partName="accel.html" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/accel.html" title="accel.html" tooltip="CollegeSelector/assets/www/accel.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/accel.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3602" selectionTopPixel="855"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="index.html" partName="index.html" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/index.html" title="index.html" tooltip="CollegeSelector/assets/www/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3917" selectionTopPixel="930"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="maps.html" partName="maps.html" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/maps.html" title="maps.html" tooltip="CollegeSelector/assets/www/maps.html" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/maps.html"/>
-<editorState selectionHorizontalPixel="28" selectionLength="0" selectionOffset="1205" selectionTopPixel="550"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="AndroidManifest.xml" partName="AndroidManifest.xml" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/AndroidManifest.xml" title="AndroidManifest.xml" tooltip="CollegeSelector/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/AndroidManifest.xml"/>
-<editorState selectionHorizontalPixel="7" selectionLength="0" selectionOffset="0" selectionTopPixel="301"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="main.js" partName="main.js" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/js/main.js" title="main.js" tooltip="CollegeSelector/assets/www/js/main.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/js/main.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="geolocation.js" partName="geolocation.js" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/js/geolocation.js" title="geolocation.js" tooltip="CollegeSelector/assets/www/js/geolocation.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/js/geolocation.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="383" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2521" selectionTopPixel="585"/>
 </editor>
 </editors>
 <views>
@@ -104,18 +99,16 @@
 <element path="/CollegeSelector"/>
 <element path="/CollegeSelector/assets"/>
 <element path="/CollegeSelector/assets/www"/>
-<element path="/CollegeSelector/assets/www/css"/>
 <element path="/CollegeSelector/assets/www/js"/>
 <element path="/CollegeSelector/gen"/>
 <element path="/CollegeSelector/res"/>
 <element path="/CollegeSelector/res/xml"/>
 </expanded>
 <selection>
-<element path="/CollegeSelector"/>
+<element path="/CollegeSelector/assets/www/js/index.js"/>
 </selection>
 </viewState>
 </view>
-<view id="com.android.ide.eclipse.ddms.views.NetworkStatsView" partName="Network Statistics"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -126,6 +119,7 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="com.android.ide.eclipse.ddms.views.NetworkStatsView" partName="Network Statistics"/>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
@@ -133,10 +127,10 @@
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker"/>
 </views>
-<perspectives activePart="com.android.ide.eclipse.ddms.views.DeviceView" activePerspective="com.android.ide.eclipse.ddms.Perspective">
+<perspectives activePart="com.android.ide.eclipse.ddms.views.LogCatView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -183,66 +177,47 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496653" ratioLeft="560" ratioRight="187" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496653" ratioLeft="560" ratioRight="187" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.4832827" ratioLeft="318" ratioRight="340" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.4832827" ratioLeft="318" ratioRight="340" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@43bf3d77" ratio="0.715311" ratioLeft="598" ratioRight="238" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
-<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@43bf3d77" ratio="0.715311" ratioLeft="598" ratioRight="238" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44848484" ratioLeft="222" ratioRight="273" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496653" ratioLeft="560" ratioRight="187" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496653" ratioLeft="560" ratioRight="187" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49933067" ratioLeft="373" ratioRight="374" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49933067" ratioLeft="373" ratioRight="374" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -433,7 +408,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.55" ratioLeft="374" ratioRight="306" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
@@ -477,8 +452,6 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/CollegeSelector/res/layout/activity_main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CollegeSelector/src/com/example/collegeselector/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/project.properties"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/.classpath"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector"/>
@@ -499,113 +472,143 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/maps.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/js/main.js"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/js/geolocation.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/accel.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/maps.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/js/geolocation.js"/>
 </editors>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="91" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="446" y="0"/>
-</item>
-<item historyLabel="AndroidManifest.xml" index="3">
-<position info="not_deleted" x="1842" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="453" y="0"/>
-</item>
 <item historyLabel="index.html" index="1">
 <position info="not_deleted" x="91" y="0"/>
 </item>
 <item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="project.properties" index="4">
+<item historyLabel="project.properties" index="2">
 <position/>
 </item>
 <item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel=".classpath" index="5">
+<item historyLabel=".classpath" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="CollegeSelector" index="6">
+<item historyLabel="CollegeSelector" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Android Manifest Editor" index="7"/>
-<item historyLabel="res" index="8">
+<item historyLabel="Android Manifest Editor" index="5"/>
+<item historyLabel="res" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="project.properties" index="4">
+<item historyLabel="project.properties" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="proguard-project.txt" index="9">
+<item historyLabel="proguard-project.txt" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="libs" index="10">
+<item historyLabel="libs" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="gen" index="11">
+<item historyLabel="gen" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="bin" index="12">
+<item historyLabel="bin" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="assets" index="13">
+<item historyLabel="assets" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Android Manifest Editor" index="7"/>
-<item historyLabel="Android Manifest Editor" index="7"/>
-<item historyLabel="AndroidManifest.xml" index="14">
+<item historyLabel="Android Manifest Editor" index="5"/>
+<item historyLabel="Android Manifest Editor" index="5"/>
+<item historyLabel="AndroidManifest.xml" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.html" index="15">
+<item historyLabel="index.html" index="13">
 <position info="not_deleted" x="3322" y="0"/>
 </item>
-<item historyLabel="index.html" index="15">
+<item historyLabel="index.html" index="13">
 <position info="not_deleted" x="3322" y="0"/>
 </item>
-<item historyLabel="config.xml" index="16"/>
-<item historyLabel="accel.html" index="17">
+<item historyLabel="config.xml" index="14"/>
+<item historyLabel="accel.html" index="15">
 <position info="not_deleted" x="3150" y="0"/>
 </item>
-<item historyLabel="index.html" index="15">
+<item historyLabel="index.html" index="13">
 <position info="not_deleted" x="1207" y="0"/>
 </item>
-<item historyLabel="maps.html" index="18">
+<item historyLabel="maps.html" index="16">
 <position info="not_deleted" x="1226" y="0"/>
 </item>
-<item historyLabel="AndroidManifest.xml" index="14">
+<item historyLabel="AndroidManifest.xml" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="accel.html" index="19">
+<item historyLabel="accel.html" index="17">
 <position info="not_deleted" x="0" y="3198"/>
 </item>
-<item historyLabel="AndroidManifest.xml" index="14">
+<item historyLabel="AndroidManifest.xml" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.html" index="20">
+<item historyLabel="index.html" index="18">
 <position info="not_deleted" x="3341" y="0"/>
 </item>
-<item historyLabel="AndroidManifest.xml" index="14">
+<item historyLabel="AndroidManifest.xml" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="maps.html" index="21">
+<item historyLabel="maps.html" index="19">
 <position info="not_deleted" x="2679" y="0"/>
 </item>
-<item historyLabel="main.js" index="22">
+<item historyLabel="main.js" index="20">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="maps.html" index="21">
+<item historyLabel="maps.html" index="19">
 <position info="not_deleted" x="1205" y="0"/>
 </item>
-<item historyLabel="geolocation.js" index="23">
+<item historyLabel="geolocation.js" index="21">
 <position info="not_deleted" x="383" y="0"/>
 </item>
-<item historyLabel="main.js" index="22">
+<item historyLabel="main.js" index="20">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="maps.html" index="21">
+<item historyLabel="maps.html" index="19">
 <position info="not_deleted" x="1205" y="0"/>
 </item>
-<item active="true" historyLabel="geolocation.js" index="23">
+<item historyLabel="geolocation.js" index="21">
 <position info="not_deleted" x="383" y="0"/>
+</item>
+<item historyLabel="accel.html" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="geolocation.js" index="21">
+<position info="not_deleted" x="383" y="0"/>
+</item>
+<item historyLabel="maps.html" index="23">
+<position info="not_deleted" x="1205" y="0"/>
+</item>
+<item historyLabel="accel.html" index="22">
+<position info="not_deleted" x="3602" y="0"/>
+</item>
+<item historyLabel="index.html" index="24">
+<position info="not_deleted" x="3917" y="0"/>
+</item>
+<item historyLabel="maps.html" index="23">
+<position info="not_deleted" x="2521" y="0"/>
+</item>
+<item historyLabel="index.html" index="24">
+<position info="not_deleted" x="3917" y="0"/>
+</item>
+<item historyLabel="maps.html" index="23">
+<position/>
+</item>
+<item historyLabel="geolocation.js" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="maps.html" index="23">
+<position/>
+</item>
+<item historyLabel="accel.html" index="22">
+<position info="not_deleted" x="3602" y="0"/>
+</item>
+<item historyLabel="index.html" index="24">
+<position info="not_deleted" x="3917" y="0"/>
+</item>
+<item active="true" historyLabel="maps.html" index="23">
+<position info="not_deleted" x="2521" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -624,26 +627,32 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="twitter.html" tooltip="CollegeSelector/assets/www/twitter.html">
+<persistable path="/CollegeSelector/assets/www/twitter.html"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="geolocation.js" tooltip="CollegeSelector/assets/www/js/geolocation.js">
 <persistable path="/CollegeSelector/assets/www/js/geolocation.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="main.js" tooltip="CollegeSelector/assets/www/js/main.js">
-<persistable path="/CollegeSelector/assets/www/js/main.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="accel.html" tooltip="CollegeSelector/assets/www/accel.html">
-<persistable path="/CollegeSelector/assets/www/accel.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="AndroidManifest.xml" tooltip="CollegeSelector/AndroidManifest.xml">
-<persistable path="/CollegeSelector/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="index.js" tooltip="CollegeSelector/assets/www/js/index.js">
+<persistable path="/CollegeSelector/assets/www/js/index.js"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="maps.html" tooltip="CollegeSelector/assets/www/maps.html">
 <persistable path="/CollegeSelector/assets/www/maps.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="config.xml" tooltip="CollegeSelector/res/xml/config.xml">
-<persistable path="/CollegeSelector/res/xml/config.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="index.html" tooltip="CollegeSelector/assets/www/index.html">
 <persistable path="/CollegeSelector/assets/www/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="accel.html" tooltip="CollegeSelector/assets/www/accel.html">
+<persistable path="/CollegeSelector/assets/www/accel.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="main.js" tooltip="CollegeSelector/assets/www/js/main.js">
+<persistable path="/CollegeSelector/assets/www/js/main.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="AndroidManifest.xml" tooltip="CollegeSelector/AndroidManifest.xml">
+<persistable path="/CollegeSelector/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="config.xml" tooltip="CollegeSelector/res/xml/config.xml">
+<persistable path="/CollegeSelector/res/xml/config.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="ic_launcher-web.png" tooltip="CollegeSelector/ic_launcher-web.png">
 <persistable path="/CollegeSelector/ic_launcher-web.png"/>
@@ -659,15 +668,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="project.properties" tooltip="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/project.properties">
 <persistable uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/project.properties"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="proguard-project.txt" tooltip="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/proguard-project.txt">
-<persistable uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/proguard-project.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="libs" tooltip="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/libs">
-<persistable uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/libs"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="ic_launcher-web.png" tooltip="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/ic_launcher-web.png">
-<persistable uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/ic_launcher-web.png"/>
 </file>
 </mruList>
 </workbench>
