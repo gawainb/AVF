@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="12" version="2.0">
+<workbench progressCount="11" version="2.0">
 <workbenchAdvisor/>
 <window height="768" width="1148" x="243" y="22">
 <fastViewData fastViewLocation="1024"/>
@@ -18,7 +18,7 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.pittypanda.plugins.couch.toolbar" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
@@ -26,7 +26,7 @@
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -37,42 +37,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="accel.html" partName="accel.html" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/accel.html" title="accel.html" tooltip="CollegeSelector/assets/www/accel.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/accel.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3602" selectionTopPixel="855"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="index.html" partName="index.html" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/index.html" title="index.html" tooltip="CollegeSelector/assets/www/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3917" selectionTopPixel="930"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="config.xml" partName="config.xml" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/res/xml/config.xml" title="config.xml" tooltip="CollegeSelector/res/xml/config.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/res/xml/config.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="project.properties" partName="project.properties" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/project.properties" title="project.properties" tooltip="CollegeSelector/project.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/project.properties"/>
-<editorState selectionHorizontalPixel="7" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="research1.html" partName="research1.html" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/research1.html" title="research1.html" tooltip="CollegeSelector/assets/www/research1.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/research1.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3487" selectionTopPixel="374"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="research2.html" partName="research2.html" path="/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week1/Android/CollegeSelector/assets/www/research2.html" title="research2.html" tooltip="CollegeSelector/assets/www/research2.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeSelector/assets/www/research2.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3436" selectionTopPixel="372"/>
-</editor>
 </editors>
 <views>
 <view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices">
@@ -121,7 +89,7 @@
 <element path="/CollegeSelector/res/xml"/>
 </expanded>
 <selection>
-<element path="/CollegeSelector/assets/www/research2.html"/>
+<element path="/CollegeSelector/assets/www/videos"/>
 </selection>
 </viewState>
 </view>
@@ -146,7 +114,7 @@
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker"/>
 </views>
-<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.views.ResourceNavigator" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -451,170 +419,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/CollegeSelector/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/project.properties"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/res"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/proguard-project.txt"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/libs"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/gen"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/bin"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/g2musicgroup/Desktop/MDVRepos/AVF/Week2/Android/CollegeSelector/assets"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/CollegeSelector/res/xml/config.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/accel.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/maps.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/accel.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/maps.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/js/main.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/js/geolocation.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/accel.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/maps.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/js/geolocation.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/CollegeSelector/res/xml/config.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/CollegeSelector/project.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/research1.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollegeSelector/assets/www/research2.html"/>
-</editors>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="CollegeSelector" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Android Manifest Editor" index="3"/>
-<item historyLabel="res" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="project.properties" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="proguard-project.txt" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="libs" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="gen" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="bin" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="assets" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Android Manifest Editor" index="3"/>
-<item historyLabel="Android Manifest Editor" index="3"/>
-<item historyLabel="AndroidManifest.xml" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html" index="11">
-<position info="not_deleted" x="3322" y="0"/>
-</item>
-<item historyLabel="index.html" index="11">
-<position info="not_deleted" x="3322" y="0"/>
-</item>
-<item historyLabel="config.xml" index="12"/>
-<item historyLabel="accel.html" index="13">
-<position info="not_deleted" x="3150" y="0"/>
-</item>
-<item historyLabel="index.html" index="11">
-<position info="not_deleted" x="1207" y="0"/>
-</item>
-<item historyLabel="maps.html" index="14">
-<position info="not_deleted" x="1226" y="0"/>
-</item>
-<item historyLabel="AndroidManifest.xml" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="accel.html" index="15">
-<position info="not_deleted" x="0" y="3198"/>
-</item>
-<item historyLabel="AndroidManifest.xml" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html" index="16">
-<position info="not_deleted" x="3341" y="0"/>
-</item>
-<item historyLabel="AndroidManifest.xml" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="maps.html" index="17">
-<position info="not_deleted" x="2679" y="0"/>
-</item>
-<item historyLabel="main.js" index="18">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="maps.html" index="17">
-<position info="not_deleted" x="1205" y="0"/>
-</item>
-<item historyLabel="geolocation.js" index="19">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="main.js" index="18">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="maps.html" index="17">
-<position info="not_deleted" x="1205" y="0"/>
-</item>
-<item historyLabel="geolocation.js" index="19">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="accel.html" index="20">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="geolocation.js" index="19">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="maps.html" index="21">
-<position info="not_deleted" x="1205" y="0"/>
-</item>
-<item historyLabel="accel.html" index="20">
-<position info="not_deleted" x="3602" y="0"/>
-</item>
-<item historyLabel="index.html" index="22">
-<position info="not_deleted" x="3917" y="0"/>
-</item>
-<item historyLabel="maps.html" index="21">
-<position info="not_deleted" x="2521" y="0"/>
-</item>
-<item historyLabel="index.html" index="22">
-<position info="not_deleted" x="3917" y="0"/>
-</item>
-<item historyLabel="maps.html" index="21">
-<position/>
-</item>
-<item historyLabel="geolocation.js" index="23">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="maps.html" index="21">
-<position/>
-</item>
-<item historyLabel="accel.html" index="20">
-<position info="not_deleted" x="3602" y="0"/>
-</item>
-<item historyLabel="index.html" index="22">
-<position info="not_deleted" x="3917" y="0"/>
-</item>
-<item historyLabel="maps.html" index="21">
-<position info="not_deleted" x="2521" y="0"/>
-</item>
-<item historyLabel="config.xml" index="24"/>
-<item historyLabel="project.properties" index="25">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="research1.html" index="26">
-<position info="not_deleted" x="3487" y="0"/>
-</item>
-<item active="true" historyLabel="research2.html" index="27">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -631,6 +436,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="video.html" tooltip="CollegeSelector/assets/www/video.html">
+<persistable path="/CollegeSelector/assets/www/video.html"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="research2.html" tooltip="CollegeSelector/assets/www/research2.html">
 <persistable path="/CollegeSelector/assets/www/research2.html"/>
 </file>
