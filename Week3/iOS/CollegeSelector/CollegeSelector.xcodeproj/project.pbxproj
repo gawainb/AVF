@@ -109,8 +109,6 @@
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* CollegeSelector-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CollegeSelector-Prefix.pch"; sourceTree = "<group>"; };
 		390E57A7164C019E000B24F2 /* jquery.mobile-1.2.0.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "jquery.mobile-1.2.0.min.css"; path = "www/css/jquery.mobile-1.2.0.min.css"; sourceTree = "<group>"; };
-		390E57A8164C0230000B24F2 /* jquery.mobile-1.2.0.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "jquery.mobile-1.2.0.min.js"; path = "www/js/jquery.mobile-1.2.0.min.js"; sourceTree = "<group>"; };
-		390E57A9164C02E5000B24F2 /* modernizr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = modernizr.js; path = www/js/modernizr.js; sourceTree = "<group>"; };
 		390E57AA164C039E000B24F2 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = styles.css; path = www/css/styles.css; sourceTree = "<group>"; };
 		390E57AB164C03DB000B24F2 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = www/index.html; sourceTree = "<group>"; };
 		391253E2164C05D8009063EC /* maps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = maps.html; path = www/maps.html; sourceTree = "<group>"; };
@@ -195,8 +193,6 @@
 				391253E2164C05D8009063EC /* maps.html */,
 				390E57AB164C03DB000B24F2 /* index.html */,
 				390E57AA164C039E000B24F2 /* styles.css */,
-				390E57A9164C02E5000B24F2 /* modernizr.js */,
-				390E57A8164C0230000B24F2 /* jquery.mobile-1.2.0.min.js */,
 				390E57A7164C019E000B24F2 /* jquery.mobile-1.2.0.min.css */,
 				301BF56E109A69640062928A /* www */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
