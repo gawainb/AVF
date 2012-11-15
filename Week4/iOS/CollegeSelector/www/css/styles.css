@@ -1,0 +1,48 @@
+/* Title: Test App Launch 
+	Created By: Gawain Bracy II
+	Date: 11/1/12
+	AVF 1210
+*/
+
+body{
+	background-color: #FAFAC6;
+}
+
+#header{
+	color: rgb(255,0,0);
+	font: 1.6em Helvetica, "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 10px;
+}
+
+legend{
+	
+	font-weight: bold;
+	color: #98A89E;
+	font: 1.1em Arial, Verdana, sans-serif;
+}
+
+#api ul{
+	list-style-type: none;
+}
+
+#data ul{
+	list-style-type: none;
+}
+
+#two{
+	list-style-type: none;
+}
+
+#three{
+	list-style-type: none;
+}
+
+#four{
+	list-style-type: none;
+}
+
+ul{
+	
+}

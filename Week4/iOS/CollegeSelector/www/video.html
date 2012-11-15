@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- Gawain Bracy II
+ Date: 11/1/12
+ AVF 1210
+ Project_2-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="My Launch Page" />
+		<meta name="author" content="Gawain Bracy II" />
+		<meta name="keywords" content="Html5, Mobile Development, Full Sail University" />
+		<meta name="robots" content="noindex, nofollow" />
+        
+		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+		<meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1, maximumscale=1" />
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<meta name="handheldfriendly" content="true" />
+		<meta name="mobileoptimized" content="320" />
+        
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        
+		<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+		<script type="text/javascript" src="js/libs/modernizr.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
+        
+		<!--Video Support-->
+		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+            <script src="http://vjs.zencdn.net/c/video.js"></script>
+            
+            <!-- Gawain's custom style sheet-->
+            <!-- call custom style sheets last when using jqmobile -->
+            <link rel="stylesheet" href="css/styles.css" />
+            
+            <!-- Document Title -->
+            <title>AVF 1210</title>
+            <link rel="stylesheet" type="text/css" href="css/styles.css" />
+            </head>
+	<body>
+		<div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+            <div data-role="header">
+                <h1><a href="index.html"></a></h1>
+            </div><!--/header-->
+            <div data-role="content">
+                <video controls id="avfweek3" width="520" height="310">
+                    <source src="videos/AVF_Week_3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+                    <source src="videos/AVF_Week_3.webm" type='video/webm; codecs="vp8, vorbis"' />
+                    <source src="videos/AVF_Week_3.theora.ogv" type='video/ogg; codecs="theora, vorbis"' />
+                </video>
+            </div><!--content-->
+            <div data-role="footer" id="footer" data-position="fixed">
+                
+            </div>
+        </div><!--page-->
+        
+        <!--jquery and jquery mobile-->
+        <!--note that order of js is important below-->
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+        
+        <!--plugins-->
+        <script src="js/libs/jquery.validate.min.js"></script>
+        
+        <!--custom js-->	
+        <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
