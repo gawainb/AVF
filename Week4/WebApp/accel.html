@@ -5,6 +5,7 @@
  Project_2-->
 <html>
 	<head>
+        <base href="accel.html"/>
 		<meta charset="utf-8" />
 		<meta name="description" content="My Launch Page" />
 		<meta name="author" content="Gawain Bracy II" />
@@ -12,11 +13,13 @@
 		<meta name="robots" content="noindex, nofollow" />
         
 		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="target-densitydpi=device-dpi" />
 		<meta name="handheldfriendly" content="true" />
 		<meta name="mobileoptimized" content="320" />
         
-		<!-- Mobile IE needs ClearType for smoothing fonts -->
+		<!-- Mobile IE needs ClearType for smoothing fonts-->
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
         
 		<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
@@ -36,9 +39,13 @@
 		<title>Accelerometer</title>
         
 	</head>
-	<body onload="onBodyLoad()">
-  		<div data-role="page" id="accel">
-            <div data-role="content">
+	   <body class="ui-mobile-viewport ui-overlay-c"> 
+
+            <div data-role="page" data-url="accel.html" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 480px; ">
+            <div data-role="header" class="ui-header ui-bar-a" role="banner">
+                <h1 class="ui-title" role="heading" aria-level="1"><a href="index.html" data-ajax="false" class="ui-link">AVF 1210</a></h1>
+            </div>
+            <div data-role="content" class="ui-content" role="main">
                     
                     <button onclick="getCurrentAcceleration()">Show Acceleration</button>
                     
@@ -48,7 +55,7 @@
                          <h1>Accelerometer Test</h1>
                          <div id="sphere"></div>
                          <ul>
-                         <li>acceleration x: <span id="accelerationX"></span>g</li>
+                         <li>acceleration x: <span id="Acceleration X: "></span>g</li>
                          <li>acceleration y: <span id="accelerationY"></span>g</li>
                          <li>acceleration z: <span id="accelerationZ"></span>g</li>
                          <li>rotation alpha: <span id="rotationAlpha"></span>degree</li>

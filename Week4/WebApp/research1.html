@@ -5,6 +5,7 @@
  Project_2-->
 <html>
 	<head>
+		<base href="research1" />
 		<meta charset="utf-8" />
 		<meta name="description" content="My Launch Page" />
 		<meta name="author" content="Gawain Bracy II" />
@@ -12,6 +13,7 @@
 		<meta name="robots" content="noindex, nofollow" />
         
 		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="target-densitydpi=device-dpi" />
 		<meta name="handheldfriendly" content="true" />
 		<meta name="mobileoptimized" content="320" />
@@ -30,10 +32,12 @@
         <!--Document Title-->
         <title>Launch Page</title>
 	</head>
-	<body>
-		<div data-role="page" id="home">
-            <div data-role="header" id="header"></div><!--/header-->
-            <div data-role="content">
+	<body class="ui-mobile-viewport ui-overlay-c">
+		<div data-role="page" data-url="research1.html" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 480px; "> 
+			<div data-role="header" class="ui-header ui-bar-a" role="banner" data-add-back-btn="true">
+				<h1 class="ui-title" role="heading" aria-level="1"><a href="index.html" data-ajax="false" class="ui-link">AVF 1210</a></h1>
+			</div>
+            <div data-role="content" class="ui-content" role="main">
             	<h3>Week 1: Industry Research and Project Intent</h3>
             	<p>What types of native features (on Android and iOS devices) would you be able to implement with the use of HTML/CSS/JS only?</p>
  
