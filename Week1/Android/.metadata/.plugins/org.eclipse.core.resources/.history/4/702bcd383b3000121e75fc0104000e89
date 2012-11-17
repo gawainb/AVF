@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Gawain Bracy II
+ Date: 11/1/12
+ AVF 1210
+ Project_2-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="My Launch Page" />
+		<meta name="author" content="Gawain Bracy II" />
+		<meta name="keywords" content="Html5, Mobile Development, Full Sail University" />
+		<meta name="robots" content="noindex, nofollow" />
+        
+		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<meta name="handheldfriendly" content="true" />
+		<meta name="mobileoptimized" content="320" />
+        
+		<!-- Mobile IE needs ClearType for smoothing fonts -->
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        
+		<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+		<script type="text/javascript" src="js/libs/modernizr.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova-2.2.0rc2.js"></script>
+        
+		<!-- Gawain's custom style sheet-->
+		<!-- call custom style sheets last when using jqmobile -->
+		<link rel="stylesheet" href="css/styles.css" />
+        <!--Document Title-->
+        <title>Launch Page</title>
+	</head>
+	<body>
+		<header>
+            <h1 id="header"><a href="index.html">AVF 1210</a></h1>
+        </header>
+        <article>
+            	<h3>Week 1: Industry Research and Project Intent</h3>
+            	<p>What types of native features (on Android and iOS devices) would you be able to implement with the use of HTML/CSS/JS only?</p>
+ 
+<p>While I was reviewing the reading material I noticed a few native features I would be able to implement with the use of HTML/CSS/JS is geolocation and JSON parsing. JSON parsing I knew could be done through JS, but geolocation is something I had know idea could be done through simple HTML/CSS/JS. A lot of other features I see listed for HTML/CSS are no brainers and are required with the design of any app in my opinion.</P>
+ 
+<p>What types of features do you think will pair well together in an app?</p>
+ 
+<p>Types of features that I think work well together in an app are geolocation and compass, Media and storage, contacts and camera to name a few.</p>
+ 
+<p>Please describe any design and functionality intentions you may have for your Demo app components this month.</p>
+ 
+<p>The design of my app will consist of fixed positioning, inline blocks, a background image, text shadow and form validation. As far as the functionality of the app, I will like to incorporate social integration, geolocation, maps, VoiceOver and calendar. I feel these implementations will make my app much stronger and interactive.</p>
+ 
+<p>Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, etc.</p>
+ 
+<p>Past lessons that I've learned regarding workflow as related to research design and development was to look at other inspiration to pull in for your for your application. I have learned by doing this you get ideas that you may have not originally thought of. I have also learned that time management is very important when designing and developing an application. Finally, I've learned that flowcharts are a plus when developing your app although, I did not like it at first.</p>
+         	</article>
+         	<footer>
+                <div data-role="footer" id="footer">
+              	</div>
+            </footer>
+
+        <!--jquery and jquery mobile-->
+        <!--note that order of js is important below-->
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+        
+        <!--custom js-->
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

@@ -28,6 +28,7 @@
 	<string>cloud</string>
 	<key>ExternalHosts</key>
 	<array>
+		<string>*.jquery.com</string>
 		<string>*.google.com</string>
 		<string>*.zencdn.net</string>
 		<string>http://maps.googleapis.com</string>
@@ -36,7 +37,6 @@
 		<string>ajax.googleapis.com</string>
 		<string>*.github.com</string>
 		<string>https://ajax.googleapis.com</string>
-		<string>googleapis.com</string>
 		<string>www.colourlovers.com</string>
 		<string>colourlovers.com</string>
 		<string>https://www.colourlovers.com</string>

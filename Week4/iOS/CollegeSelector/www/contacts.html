@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Gawain Bracy II
+ Date: 11/1/12
+ AVF 1210
+ Project_2-->
+<html class="ui-mobile">
+<head>
+	<base href="contacts.html"/>
+	<meta charset="utf-8"/>
+	<meta name="description" content="My Launch Page" />
+	<meta name="author" content="Gawain Bracy II" />
+	<meta name="keywords" content="Html5, Mobile Development, Full Sail University" />
+	<meta name="robots" content="noindex, nofollow" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="target-densitydpi=device-dpi" />
+	<meta name="handheldfriendly" content="true" />
+	<meta name="mobileoptimized" content="320" /> 
+	
+	<title>Launch Page</title> 
+	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script type="text/javascript" src="js/libs/modernizr.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-2.2.0rc2.js"></script>
+
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	
+	<!-- Gawain's custom style sheet-->
+	<!-- call custom style sheets last when using jqmobile -->
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body onload="onBodyLoad()" class="ui-mobile-viewport ui-overlay-c">
+  	<div data-role="page" id="camera" data-url="contacts.html" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 480px; ">
+	<div data-role="header" class="ui-header ui-bar-a" role="banner">
+		<h1><a href="index.html" data-ajax="false">AVF 1210</a></h1>
+	</div>
+	 <div data-role="content" class="ui-content" >
+	 	                <h2>Contacts Demo</h2>
+                <br /><br />
+
+                    <blockquote>
+                         <p>
+                        	The <code>contacts</code> object gives access to the device contacts database. 
+                        	<a href="http://docs.phonegap.com/en/1.9.0/cordova_contacts_contacts.md.html#Contacts">Details.</a>
+                        </p>
+                    </blockquote>
+                    <a class="btn" onclick="get_contacts();">Check Contacts</a>
+                    <div class="result-block">
+                        <span id="contacts-output"></span>
+                    </div>
+            <div class="push"></div>           
+                
+            </div><!--/content-->
+            <div data-role="footer" id="footer"></div>
+        </div><!--/page-->
+        
+        
+        <!--plugins-->
+        <script type="text/javascript" src="js/contacts.js"></script>
+        
+        <!--custom js-->	
+        <script type="text/javascript" src="js/index.js"></script>
+        
+    </body>
+</html>

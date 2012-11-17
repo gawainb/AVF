@@ -12,18 +12,27 @@
     <meta name="robots" content="index, follow all" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-    <link rel="stylesheet" type="text/css" media="all" href="css/index.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+
+    <script type="text/javascript" src="js/libs/modernizr.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova-2.2.0rc2.js"></script>
+
+     <!--jquery and jquery mobile-->
+    <!--note that order of js is important below-->
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="all" href="css/styles.css" />
 </head>
-<body>
-<header>
-    <h1 id="header"><a href="index.html">AVF 1210</a></h1>
-</header>
-    <article>
-        <section>
+<body class="ui-mobile-viewport ui-overlay-c"> 
+<div data-role="page" data-url="accel.html" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 480px; ">
+            <div data-role="header" class="ui-header ui-bar-a" role="banner">
+                <h1 class="ui-title" role="heading" aria-level="1"><a href="index.html" data-ajax="false" class="ui-link">AVF 1210</a></h1>
+            </div>
+         <div data-role="content" class="ui-content" role="main">
             <h3>Twitter Search API</h3>
             <ul id="twitterSearchLV"></ul>
-        </section>
-    </article>
+        </div>
 
 <script type="text/javascript">
     !window.jQuery && document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"><\/script>');
@@ -57,5 +66,7 @@ $('document').ready(function() {
          });
     });
 </script>
+<div data-role="footer" id="footer"></div>
+</div><!--page-->
 </body>
 </html>

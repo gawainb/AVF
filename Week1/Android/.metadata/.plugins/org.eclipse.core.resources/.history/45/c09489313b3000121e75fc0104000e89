@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Gawain Bracy II
+ Date: 11/1/12
+ AVF 1210
+ Project_2-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="My Launch Page" />
+		<meta name="author" content="Gawain Bracy II" />
+		<meta name="keywords" content="Html5, Mobile Development, Full Sail University" />
+		<meta name="robots" content="noindex, nofollow" />
+        
+		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<meta name="handheldfriendly" content="true" />
+		<meta name="mobileoptimized" content="320" />
+        
+		<!-- Mobile IE needs ClearType for smoothing fonts -->
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        
+		<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+		<script type="text/javascript" src="js/libs/modernizr.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova-2.2.0rc2.js"></script>
+        
+		<!-- Gawain's custom style sheet-->
+		<!-- call custom style sheets last when using jqmobile -->
+		<link rel="stylesheet" href="css/styles.css" />
+        <!--Document Title-->
+        <title>Launch Page</title>
+	</head>
+	<body>
+		<div data-role="page" id="home">
+            <div data-role="header" id="header"></div><!--/header-->
+            <div data-role="content">
+                <fieldset>
+                    <legend>iOS/Android API's</legend>
+                    <div id="api">
+                        <ul>
+                            <li><a href="maps.html"><img src="images/maps/iOS/Icon-Small-50.png" alt="maps" >Maps</a></li>
+                            <li><a href="accel.html"><img src="images/accel/iOS/Icon-Small-50.png" alt="accel">accelerometer</a></li>
+                            <li><img src="images/voice/iOS/Icon-Small-50.png" alt="voice">Voice Over</li>
+                            <li><img src="images/email/iOS/Icon-Small-50.png" alt="email">Email</li>
+                            <li><img src="images/calender/iOS/Icon-Small-50.png" alt="calender">Calender</li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>JSON Data API's</legend>
+                    <div id="data">
+                        <ul>
+                            <li><a href="twitter.html"><img src="images/twitter/iOS/Icon-Small-50.png" alt="twitter">Twitter Search API</a></li>
+                            <li><a href="colour.html"><img src="images/colour/iOS/Icon-Small-50.png" alt="colour">Colour Lovers API</a></li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Research</legend>
+                    <div id="research">
+                        <ul>
+                            <li><a href="research1.html">Week 1: Industry Research and Project Intent</a></li>
+                            <li><a href="research2.html">Week 2: Accessability</a></li>
+                            <li id="three">Week 3: Research (Coming Soon)</li>
+                            <li id="four">Week 4: Research (Coming Soon)</li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Video</legend>
+                    <div id="video">
+                        <ul>
+                            <li id="week3"><a href="video.html"><img src="images/video/iOS/Icon-Small-50.png" alt="video">Video Page</a></li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </div> <!--Content-->
+            <footer>
+                <div data-role="footer" id="footer">
+                </div>
+            </footer>
+        </div> <!--Page-->
+        
+        <!--jquery and jquery mobile-->
+        <!--note that order of js is important below-->
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+        
+        <!--custom js-->
+        <script type="text/javascript" src="js/index.js"></script>
+        
+    </body>
+</html>

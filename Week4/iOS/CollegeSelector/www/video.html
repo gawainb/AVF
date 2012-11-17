@@ -12,33 +12,32 @@
 		<meta name="robots" content="noindex, nofollow" />
         
 		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
-		<meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1, maximumscale=1" />
-		<meta name="viewport" content="target-densitydpi=device-dpi" />
-		<meta name="handheldfriendly" content="true" />
-		<meta name="mobileoptimized" content="320" />
-        
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-        
-		<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
-		<script type="text/javascript" src="js/libs/modernizr.js"></script>
-		<script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
-        
-		<!--Video Support-->
-		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
-            <script src="http://vjs.zencdn.net/c/video.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="viewport" content="target-densitydpi=device-dpi" />
+            <meta name="handheldfriendly" content="true" />
+            <meta name="mobileoptimized" content="320" />
             
-            <!-- Gawain's custom style sheet-->
-            <!-- call custom style sheets last when using jqmobile -->
-            <link rel="stylesheet" href="css/styles.css" />
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
             
-            <!-- Document Title -->
-            <title>AVF 1210</title>
-            <link rel="stylesheet" type="text/css" href="css/styles.css" />
-            </head>
+            <!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+            <script type="text/javascript" src="js/libs/modernizr.js"></script>
+            <script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
+            
+            <!--Video Support-->
+            <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+                <script src="http://vjs.zencdn.net/c/video.js"></script>
+                
+                <!-- Gawain's custom style sheet-->
+                <!-- call custom style sheets last when using jqmobile -->
+                <link rel="stylesheet" type="text/css" href="css/styles.css" />
+                
+                <!-- Document Title -->
+                <title>AVF 1210</title>
+                </head>
 	<body>
-		<div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+		<div data-role="page" id="video" data-theme="d" data-add-back-btn="true">
             <div data-role="header">
-                <h1><a href="index.html"></a></h1>
+                <h1><a href="index.html" data-ajax="false"></a></h1>
             </div><!--/header-->
             <div data-role="content">
                 <video controls id="avfweek3" width="520" height="310">

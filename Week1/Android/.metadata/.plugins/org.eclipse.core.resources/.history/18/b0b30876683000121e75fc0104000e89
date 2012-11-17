@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- Gawain Bracy II
+ Date: 11/1/12
+ AVF 1210
+ Project_2-->
+<html class="ui-mobile">
+<head>
+	<base href="camera.html"/>
+	<meta charset="utf-8"/>
+	<meta name="description" content="My Launch Page" />
+	<meta name="author" content="Gawain Bracy II" />
+	<meta name="keywords" content="Html5, Mobile Development, Full Sail University" />
+	<meta name="robots" content="noindex, nofollow" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="target-densitydpi=device-dpi" />
+	<meta name="handheldfriendly" content="true" />
+	<meta name="mobileoptimized" content="320" /> 
+	
+	<title>Launch Page</title> 
+	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script type="text/javascript" src="js/libs/modernizr.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-2.2.0rc2.js"></script>
+	
+	<!-- Gawain's custom style sheet-->
+	<!-- call custom style sheets last when using jqmobile -->
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body onload="onBodyLoad()" class="ui-mobile-viewport ui-overlay-c">
+  	<div data-role="page" id="camera" data-url="camera.html" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 480px; ">
+	<div data-role="header" class="ui-header ui-bar-a" role="banner">
+		<h1><a href="index.html" data-ajax="false">AVF 1210</a></h1>
+	</div>
+	 <div data-role="content" class="ui-content" >
+            <h3>PhoneGap Camera</h3>
+            <button data-role="button" id="pgCamCapturePhoto">Capture Photo</button>
+
+            <button data-role="button" id="pgCamCapturePhotoEdit">Capture Photo w/ Edit</button>
+
+            <button data-role="button" id="pgCamGetPhotoLib">From Photo Library</button>
+
+            <button data-role="button" id="pgCamGetPhotoAlbum">From Photo Album</button>
+
+            <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+            <img style="display:none;" id="largeImage" src="" />
+      </div>
+
+<script type="text/javascript">
+    !window.jQuery && document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"><\/script>');
+    !window.jQuery && document.write('<script type="text/javascript" src="js/libs/jquery-1.8.2.min.js"><\/script>');
+</script>
+<script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/libs/cordova-2.0.0.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" charset="utf-8">
+
+$('document').ready(function() {
+
+//PhoneGap Camera Functions
+    var pictureSource;   // picture source
+    var destinationType; // sets the format of returned value
+
+    // Wait for Cordova to connect with the device
+    //
+    document.addEventListener("deviceready",onDeviceReady,false);
+
+    // Cordova is ready to be used!
+    //
+    function onDeviceReady() {
+       pictureSource=navigator.camera.PictureSourceType;
+       destinationType=navigator.camera.DestinationType;
+    }
+
+    // Called when a photo is successfully retrieved
+    //
+    function onPhotoDataSuccess(imageData) {
+       // Uncomment to view the base64 encoded image data
+       console.log(imageData);
+       
+       // Get image handle
+       //
+       var smallImage = document.getElementById('smallImage');
+       
+       // Unhide image elements
+       //
+       smallImage.style.display = 'block';
+       
+       // Show the captured photo
+       // The inline CSS rules are used to resize the image
+       //
+       smallImage.src = "data:image/jpeg;base64," + imageData;
+    }
+
+    // Called when a photo is successfully retrieved
+    //
+    function onPhotoURISuccess(imageURI) {
+       // Uncomment to view the image file URI
+       console.log(imageURI);
+       
+       // Get image handle
+       //
+       var largeImage = document.getElementById('largeImage');
+       
+       // Unhide image elements
+       //
+       largeImage.style.display = 'block';
+       
+       // Show the captured photo
+       // The inline CSS rules are used to resize the image
+       //
+       largeImage.src = imageURI;
+    }
+
+    // A button will call this function
+    //
+    $('#pgCamCapturePhoto').bind('click',function(){
+       // Take picture using device camera and retrieve image as base64-encoded string
+       navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50,
+                                   destinationType: destinationType.DATA_URL });
+    });
+
+    // A button will call this function
+    //
+    $('#pgCamCapturePhotoEdit').bind('click',function(){
+       // Take picture using device camera, allow edit, and retrieve image as base64-encoded string
+       navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20, allowEdit: true,
+                                   destinationType: destinationType.DATA_URL });
+    });
+
+    // A button will call this function
+    //
+    $('#pgCamGetPhotoLib').bind('click',function(){
+       var source = pictureSource.PHOTOLIBRARY;
+       // Retrieve image file location from specified source
+       navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50, 
+                                   destinationType: destinationType.FILE_URI,
+                                   sourceType: source });
+    });
+
+                           
+    // A button will call this function
+    //
+    $('#pgCamGetPhotoAlbum').bind('click',function(){
+        var source = pictureSource.SAVEDPHOTOALBUM;
+        // Retrieve image file location from specified source
+        navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50,
+                                   destinationType: destinationType.FILE_URI,
+                                   sourceType: source });
+    });
+
+                           
+    // Called if something bad happens.
+    //
+    function onFail(message) {
+       alert('Failed because: ' + message);
+    }
+    alert('camera page good!')
+});
+
+
+
+
+
+
+
+</script>
+</div>
+	<!--custom js-->	
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

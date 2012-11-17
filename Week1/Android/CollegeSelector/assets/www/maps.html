@@ -5,6 +5,7 @@
  Project_2-->
 <html>
 	<head>
+		<base href="maps.html"/>
 		<meta charset="utf-8" />
 		<meta name="description" content="My Launch Page" />
 		<meta name="author" content="Gawain Bracy II" />
@@ -12,6 +13,7 @@
 		<meta name="robots" content="noindex, nofollow" />
         
 		<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="target-densitydpi=device-dpi" />
 		<meta name="handheldfriendly" content="true" />
 		<meta name="mobileoptimized" content="320" />
@@ -25,16 +27,19 @@
         
 		<!-- Gawain's custom style sheet-->
 		<!-- call custom style sheets last when using jqmobile -->
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
         
 		<!-- Document Title -->
 		<title>Maps</title>
         
 	</head>
-  	<body onload="onBodyLoad()">
-  		<div data-role="page" id="geolocation">
-	  	<div data-role="header" id="header"></div><!--/header-->
-	  	<div data-role="content">
+	<body class="ui-mobile-viewport ui-overlay-a"> 
+
+            <div data-role="page" data-url="maps.html" tabindex="0" class="ui-page ui-body-a ui-page-active" style="min-height: 480px; ">
+            <div data-role="header" class="ui-header ui-bar-a" role="banner">
+                <h1 class="ui-title" role="heading" aria-level="1"><a href="index.html" data-ajax="false" class="ui-link">AVF 1210</a></h1>
+            </div>
+            <div data-role="content" class="ui-content" role="main">
 			<div role="main" id="secondary_content" > 
 		      <h2>Geolocation Demo</h1>
 		      <p class="intro" id="demo">Find your location with HTML5 Geolocation and Google Maps API. </p>
