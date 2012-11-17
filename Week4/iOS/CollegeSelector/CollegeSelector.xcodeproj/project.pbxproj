@@ -47,7 +47,9 @@
 		391253E5164C0622009063EC /* index.js in Sources */ = {isa = PBXBuildFile; fileRef = 391253E4164C0622009063EC /* index.js */; };
 		391253E7164C0753009063EC /* geolocation.js in Sources */ = {isa = PBXBuildFile; fileRef = 391253E6164C0753009063EC /* geolocation.js */; };
 		391253E9164C078F009063EC /* accelerometer.js in Sources */ = {isa = PBXBuildFile; fileRef = 391253E8164C078F009063EC /* accelerometer.js */; };
-		391253F0164C0F83009063EC /* accel.html in Resources */ = {isa = PBXBuildFile; fileRef = 391253EF164C0F83009063EC /* accel.html */; };
+		39D123421657521E00DEC3D0 /* connection.html in Resources */ = {isa = PBXBuildFile; fileRef = 39D123411657521E00DEC3D0 /* connection.html */; };
+		39D12344165752A100DEC3D0 /* storage.js in Sources */ = {isa = PBXBuildFile; fileRef = 39D12343165752A100DEC3D0 /* storage.js */; };
+		39D12346165752D000DEC3D0 /* contacts.js in Sources */ = {isa = PBXBuildFile; fileRef = 39D12345165752D000DEC3D0 /* contacts.js */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
@@ -115,7 +117,9 @@
 		391253E4164C0622009063EC /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = www/js/index.js; sourceTree = "<group>"; };
 		391253E6164C0753009063EC /* geolocation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = geolocation.js; path = www/js/geolocation.js; sourceTree = "<group>"; };
 		391253E8164C078F009063EC /* accelerometer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = accelerometer.js; path = www/js/accelerometer.js; sourceTree = "<group>"; };
-		391253EF164C0F83009063EC /* accel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = accel.html; path = www/accel.html; sourceTree = "<group>"; };
+		39D123411657521E00DEC3D0 /* connection.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = connection.html; path = www/connection.html; sourceTree = "<group>"; };
+		39D12343165752A100DEC3D0 /* storage.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = storage.js; path = www/js/storage.js; sourceTree = "<group>"; };
+		39D12345165752D000DEC3D0 /* contacts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = contacts.js; path = www/js/contacts.js; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CollegeSelector-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CollegeSelector-Info.plist"; path = "../CollegeSelector-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,7 +190,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				391253EF164C0F83009063EC /* accel.html */,
+				39D12345165752D000DEC3D0 /* contacts.js */,
+				39D12343165752A100DEC3D0 /* storage.js */,
+				39D123411657521E00DEC3D0 /* connection.html */,
 				391253E8164C078F009063EC /* accelerometer.js */,
 				391253E6164C0753009063EC /* geolocation.js */,
 				391253E4164C0622009063EC /* index.js */,
@@ -404,7 +410,7 @@
 				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
 				390E57AC164C03DB000B24F2 /* index.html in Resources */,
 				391253E3164C05D8009063EC /* maps.html in Resources */,
-				391253F0164C0F83009063EC /* accel.html in Resources */,
+				39D123421657521E00DEC3D0 /* connection.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +444,8 @@
 				391253E5164C0622009063EC /* index.js in Sources */,
 				391253E7164C0753009063EC /* geolocation.js in Sources */,
 				391253E9164C078F009063EC /* accelerometer.js in Sources */,
+				39D12344165752A100DEC3D0 /* storage.js in Sources */,
+				39D12346165752D000DEC3D0 /* contacts.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
