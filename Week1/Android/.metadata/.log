@@ -214,3 +214,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/g2mus
 
 !ENTRY org.eclipse.core.net 1 0 2012-11-16 15:14:25.458
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2012-11-17 00:45:38.756
+!MESSAGE Invalid preference page path: XML Syntax
